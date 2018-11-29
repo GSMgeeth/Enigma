@@ -1,0 +1,66 @@
+.mainImage{
+    background-image: url("../Images/subheader_06.jpg");
+}
+
+.home-about{
+    height: 500px;
+    display: flex;
+    padding: 50px;
+
+}
+
+.home-about .h-c{
+    width: 33%;
+    padding: 20px;
+    color: #333;
+}
+
+
+
+.Author-History{
+    height: 500px;
+    background-color: #0c2c40;
+    display: flex;
+    padding: 50px;
+}
+
+
+
+.Author-History .a-c{
+    width: 33%;
+    padding: 20px;
+
+
+
+}
+.a-c p{
+    text-align: justify;
+}
+.a-c span{
+    color: #ffb900;
+}
+.a-c,.a-c h2,.a-c h3{
+    color: #f9f9f9;
+}
+.ac1{
+    text-align: center;
+
+}
+.Author-History .a-c .a-image{
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    border: #ababab 5px dotted;
+}
+
+.h-c sc{
+
+}
+
+.Content p{
+    text-align: justify;
+}
+
+.sc i{
+    color: #ff851d;
+}

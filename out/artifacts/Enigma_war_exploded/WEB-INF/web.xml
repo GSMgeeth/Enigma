@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+
+    <servlet>
+        <servlet-name>CustomerLogin</servlet-name>
+        <servlet-class>Action.CustomerLogin</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>CustomerLogin</servlet-name>
+        <url-pattern>/CustomerLogin</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CustomerAdding</servlet-name>
+        <servlet-class>Action.CustomerAdding</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>CustomerAdding</servlet-name>
+        <url-pattern>/CustomerAdding</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CustomerLogout</servlet-name>
+        <servlet-class>Action.CustomerLogout</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>CustomerLogout</servlet-name>
+        <url-pattern>/CustomerLogout</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CustomerUpdating</servlet-name>
+        <servlet-class>Action.CustomerUpdating</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>CustomerUpdating</servlet-name>
+        <url-pattern>/CustomerUpdating</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>PasswordRecovery</servlet-name>
+        <servlet-class>Action.PasswordRecovery</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>PasswordRecovery</servlet-name>
+        <url-pattern>/PasswordRecovery</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CustomerPasswordUpdating</servlet-name>
+        <servlet-class>Action.CustomerPasswordUpdating</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>CustomerPasswordUpdating</servlet-name>
+        <url-pattern>/CustomerPasswordUpdating</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ShoppingCartAdding</servlet-name>
+        <servlet-class>Action.ShoppingCartAdding</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ShoppingCartAdding</servlet-name>
+        <url-pattern>/ShoppingCartAdding</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ShoppingCartRemoving</servlet-name>
+        <servlet-class>Action.ShoppingCartRemoving</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ShoppingCartRemoving</servlet-name>
+        <url-pattern>/ShoppingCartRemoving</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>BookBuying</servlet-name>
+        <servlet-class>Action.BookBuying</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>BookBuying</servlet-name>
+        <url-pattern>/BookBuying</url-pattern>
+    </servlet-mapping>
+
+
+
+
+    <servlet>
+        <servlet-name>AdminBookManagement</servlet-name>
+        <servlet-class>Action.Staff.AdminBookManagement</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AdminBookManagement</servlet-name>
+        <url-pattern>/AdminBookManagement</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>BookUpdating</servlet-name>
+        <servlet-class>Action.Staff.Ajax.AdminBookManagement_BookUpdating</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>BookUpdating</servlet-name>
+        <url-pattern>/BookUpdating</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AdminStaffManagement</servlet-name>
+        <servlet-class>Action.Staff.AdminStaffManagement</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AdminStaffManagement</servlet-name>
+        <url-pattern>/AdminStaffManagement</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AdminTransactionManagement</servlet-name>
+        <servlet-class>Action.Staff.AdminTransactionManagement</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AdminTransactionManagement</servlet-name>
+        <url-pattern>/AdminTransactionManagement</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AdminBookManagement_BookUpdating</servlet-name>
+        <servlet-class>Action.Staff.Ajax.AdminBookManagement_BookUpdating</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AdminBookManagement_BookUpdating</servlet-name>
+        <url-pattern>/AdminBookManagement_BookUpdating</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AdminSupplierManagement</servlet-name>
+        <servlet-class>Action.Staff.AdminSupplierManagement</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AdminSupplierManagement</servlet-name>
+        <url-pattern>/AdminSupplierManagement</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AdminCustomerManagement</servlet-name>
+        <servlet-class>Action.Staff.AdminCustomerManagement</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AdminCustomerManagement</servlet-name>
+        <url-pattern>/AdminCustomerManagement</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>StaffWelcome</servlet-name>
+        <servlet-class>Action.Staff.StaffWelcome</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>StaffWelcome</servlet-name>
+        <url-pattern>/StaffWelcome</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AdminDashBoard</servlet-name>
+        <servlet-class>Action.Staff.AdminDashBoard</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AdminDashBoard</servlet-name>
+        <url-pattern>/AdminDashBoard</url-pattern>
+    </servlet-mapping>
+
+</web-app>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

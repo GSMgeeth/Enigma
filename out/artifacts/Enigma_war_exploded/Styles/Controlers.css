@@ -1,0 +1,26 @@
+select,input{
+    height: 30px;
+    padding-left: 2px;
+}
+
+button{
+    background-color: #333;
+    border: none;
+    height: 30px;
+    color:white;
+    -webkit-transition: background-color 1s;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #ff851d;
+}
+
+.input-dark{
+    background-color: black;
+    border: solid 1px #333;
+    color: white;
+}
+
+.input-dark:focus{
+    border: solid 1px #ff851d;
+}

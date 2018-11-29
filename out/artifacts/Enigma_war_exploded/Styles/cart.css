@@ -1,0 +1,49 @@
+.mainImage{
+    background-image: url("../Images/inner-banner.jpg");
+}
+
+.cart-products{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #333;
+    padding-bottom: 50px;
+}
+
+.cart-products table{
+    border: solid 1px #ccc;
+}
+
+.cart-products table tr th{
+    background-color: #ddd;
+    height: 50px;
+
+}
+
+.ct-wraper{
+    width: 100%;
+    display: flex;
+}
+
+.total-cart{
+    width: 50%;
+}
+.empty{
+    width: 50%;
+}
+
+.litem{
+    display: flex;
+}
+
+.litem div{
+    width: 50%;
+}
+
+.total-cart button{
+    width: 100%;
+}
+
+.number-value{
+    text-align: right;
+}

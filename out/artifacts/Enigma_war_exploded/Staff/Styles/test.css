@@ -1,0 +1,10 @@
+body{
+    margin: 0px;
+}
+.c{
+    width: 500px;
+    margin: auto;
+    margin-top: 50px;
+    height: 500px;
+    background-color: red;
+}

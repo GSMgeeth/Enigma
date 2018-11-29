@@ -1,0 +1,25 @@
+.about-title{
+    text-align: center;
+}
+.why-us{
+    display: flex;
+    width: 80%;
+    margin: auto;
+
+
+}
+
+.why-us .sub{
+    border: solid 2px #fff;
+    color: #333;
+    width: 25%;
+    height: 250px;
+    margin: 10px;
+    -webkit-transition: border-radius .5s,border-color 1s;
+
+}
+
+.why-us div:hover{
+    border-radius: 10px;
+    border-color: #ccc; 
+}
