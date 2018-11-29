@@ -1,0 +1,30 @@
+<component name="libraryTable">
+  <library name="Java EE 6-Java EE 6">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/activation.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jasperreports-chart-customizers-6.5.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jasperreports-chart-themes-6.5.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jasperreports-functions-6.5.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jasperreports-javaflow-6.5.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javax.annotation.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javax.ejb.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javax.jms.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javax.persistence.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javax.resource.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javax.transaction.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/mail.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-collections-3.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-digester-2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-logging-1.1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/iReport.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/itext-4.2.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/barcode4j-2.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jcommon-1.0.16.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jfreechart-1.0.13.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jdt-compiler-3.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-beanutils-1.9.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

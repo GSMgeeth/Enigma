@@ -1,0 +1,376 @@
+body{
+    margin: 0px;
+    font-family: 'Lato', sans-serif;
+}
+div,*:after,*:before{
+    box-sizing: border-box;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+
+
+/*------------header styles----------------------*/
+.header{
+    height: 48px;
+    background-color: #1e293d;
+    display: grid;
+    grid-template-columns:repeat(12,1fr);
+}
+
+.header .online-options{
+    grid-column:1/6;
+    padding-top: 15px;
+}
+
+.header .cart-options{
+    grid-column:6/10;
+       padding-top: 15px;
+}
+
+.header .cart-options ul li{
+    font-size: 12px;
+      
+ 
+}
+
+.header .social-icons{
+    grid-column:10/13;
+}
+
+.header .social-icons ul{
+    margin-top:13px;
+}
+.header .social-icons ul li{
+    cursor: pointer;
+     -webkit-transition: color 1s;
+}
+
+.header div{
+    margin-left: auto;
+    margin-right: auto;
+}
+.header ul{
+    list-style: none;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.header div ul li{
+    float:left;
+    color: white;
+    font-size: 11px;
+    margin-left: 10px;
+}
+
+.header div ul li i{
+    margin:0px 5px 0px 5px;
+}
+.label{
+    background-color: #ff851d;
+    border-radius: 100%;
+    display: inline;
+    height: 15px;
+    line-height: 14px;
+    right: -8px;
+    text-align: center;
+    top: 0;
+    min-width: 15px;
+    float: right;
+    padding: 1px;
+    padding-top: 2px;
+    padding-right: 2px;
+    margin-top: -2px;
+}
+
+/*------------navi styles----------------------*/
+
+.nav{
+    height: 105px;
+    box-shadow: 0px 3px 5px 0px rgba(50, 50, 50, 0.28);
+    z-index: 2;
+    display: flex;
+}
+.nav .logo{
+    height: 100%;
+    width: 30%;
+    text-align: center;
+    margin-top: 10px;
+
+
+}
+.nav .manu{
+    width: 70%;
+    height: 100%;
+    color: #666666;
+    display: flex;
+}
+.nav .search{
+    width: 10%;
+    height: 100%;
+
+}
+.nav .search div{
+    width: 35px;
+    height: 35px;
+    color: white;
+    border-radius: 100%;
+    background-color: #0c2c40;
+    margin:auto;
+    margin-top: 34px;
+    text-align: center;
+    line-height: 38px; 
+    -webkit-transition: color 1s;
+}
+.nav .search div:hover{
+    color: #ff851d;
+}
+
+
+.nav .manu .menu-item{
+    height: 60px;
+    width: 16%;
+    text-align: center;
+    margin: auto;
+    font-size: 14px;
+    font-weight: bold;
+
+    cursor: pointer;
+    margin-bottom: 0px
+
+}
+
+.nav .manu  .sub:before{
+       color: #ccc;
+    content: "/";
+    float: left;
+    font-size: 16px;
+    margin: 20px 0 0;
+}
+
+.nav .manu .menu-item a{
+        -webkit-transition: color 1s;
+        color: #333;
+}
+.nav .manu .menu-item a:hover{
+    color: #ff851d;
+}
+
+/*--------------navi manue and main image--------------*/
+.mainImage{
+    height: 255px;
+    overflow: hidden;
+    padding: 0px;
+}
+.mainImage .navi-manu{
+    background-color: white;
+    /*height: 255px;*/
+    height: 155px;
+    position: relative;
+    border-top: solid 2px #ff851d;
+    /*border-bottom:  solid 2px #ff851d;*/
+    width: 100%;
+    display: flex;
+}
+
+.ncategory{
+    text-align: center;
+    width: 25%;
+}
+
+.ncategory .ctitle{
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 22px;
+    color: #333;
+}
+.ncategory .ctitle i{
+    display: block;
+    margin-bottom: 10px;
+}
+.ncategory .citems ul{
+    list-style: none;
+    padding: 10px;
+    margin-top: 0px;
+}
+.ncategory .citems ul li{
+        margin-top: 10px;
+}
+
+.ncategory .citems ul li a{
+    text-align: center;
+    height: 30px;
+    color: #666;
+    cursor: pointer;
+    -webkit-transition: color 1s;
+    font-size: 14px;
+}
+.ncategory .citems ul li a:hover{
+    color: #ff851d;
+
+}
+
+
+.locationText{
+    height: 17px;
+    padding-top: 20px;
+    margin-bottom: 40px;
+    text-align: right;
+    padding: 10px;
+    color: #333;
+    font-size: 11px;
+    margin-right: 30px;
+
+}
+
+.footer{
+    /*height: 400px;*/
+    background-color: #000;
+    color: #ccc;
+    padding-top: 30px;
+    padding-bottom: 35px;
+}
+
+.footer .footer-wraper{
+    width: 90%;
+    margin:auto; 
+    display: flex;    
+}
+
+.footer .footer-wraper .contact-info{
+    width: 30%;
+    font-size: 12px;
+      border-right: solid 2px #111;
+        
+}
+.footer .footer-wraper .contact-info p{
+    line-height: 20px;
+    font-size: 15px;
+}
+.footer .footer-wraper .contact-info ul{
+    list-style: none;
+    padding: 0px;
+}
+
+.footer .footer-wraper .contact-info li{
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+.footer .footer-wraper .navigation{
+    width: 40%;
+}
+
+.footer .footer-wraper .navigation{
+    width: 40%;
+}
+
+.navigation .fm-title{
+    height: 40px;
+    padding-top: 10px;
+    font-size: 18px;
+    text-align: center;
+}
+.navigation .fm-items{
+    display: flex;
+}
+.navigation .fm-items ul{
+    width: 50%;
+    list-style: none;
+}
+.navigation .fm-items ul li{
+    margin: 20px;
+    margin-top: 60px;
+    font-size: 22px;
+    cursor: pointer;
+}
+.navigation .fm-items ul li a{
+      -webkit-transition: color 1s;  
+}
+
+.navigation .fm-items ul li a:hover{
+    color: #ff851d;
+}
+.navigation p{
+    /*padding: 20px;*/
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.footer .footer-wraper .subcription{
+    width: 30%;
+    border-left:solid 2px #111;
+    padding-left: 20px;
+    padding-top: 50px;
+}
+
+.footer .footer-wraper .subcription ul{
+    list-style: none;
+    display: flex;
+    width: 100%;
+}
+.footer .footer-wraper .subcription ul li{
+    width: 25%;
+    cursor: pointer;
+  
+    
+}
+
+.footer .footer-wraper .subcription ul li a{
+      
+      -webkit-transition: color 1s;
+}
+
+
+.footer .footer-wraper .subcription div{
+    display: flex;
+}
+.footer .footer-wraper .subcription input{
+    width: 70%;
+    margin: 5px;
+}
+
+.footer .footer-wraper .subcription button{
+    width: 30%;
+    margin: 5px;
+}
+
+
+.Copyright{
+    height: 50px;
+    background-color: #0a0f19;
+    padding-top: 20px;
+    padding-bottom:  10px;
+    color: #ccccff;
+    font-size: 12px;
+    padding-left: 20px;
+}
+a{
+    color: #cccccc;
+}
+
+ .fb:hover{
+    color: #0033ff;
+}
+.pin:hover{
+    color:  #ff3333;
+}
+
+.twit:hover{
+    color: #33ccff;
+}
+.you:hover{
+    color: red;
+}
+
+

@@ -1,0 +1,157 @@
+.ferror-message{
+    color: #ff1e00;
+}
+
+body{
+    margin: 0px;
+    /*font-family: 'Tajawal', sans-serif;*/
+    font-size: 16px;
+    overflow-y: scroll;
+}
+
+#time-and-date{
+    font-family: 'Share Tech Mono', monospace;
+    color: #ff6600;
+    padding: 5px;
+    text-shadow: 0 0 5px #FF0000;
+    border-radius: 5px;
+}
+.header{
+    top: 0px;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    background-color:#eee;
+    box-shadow: 0px 3px 5px 0px rgba(50, 50, 50, 0.28);
+    z-index: 100;
+}
+
+.header .h-logo{
+    height: 70px;
+    width: 220px;   
+    float: left;
+    padding-top: 15px;
+    padding-left: 10px;
+    background-color: white;
+    border: solid 2px #1e293d;
+    margin-right: 0px;
+}
+
+.header .h-logo img{
+    
+}
+
+.header .h-others{
+    float: left;
+    height: 70px;
+    padding-top: 15px;
+    font-size: 20px;
+    background-color: #1e293d;
+}
+
+.header .user-profile{
+    height: 70px;
+    float: right;
+    text-align: right;
+    padding-top: 10px;
+}
+
+.header .user-profile .profile{
+    height: 50px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: 5px;
+    border-radius: 95px;
+    -webkit-transition: background-color 200ms,transform 100ms,box-shadow 100ms;
+    cursor: pointer;
+}
+
+.header .user-profile .profile:hover{
+    transform: scale(1.02);
+    box-shadow: 0px 3px 5px 0px rgba(50, 50, 50, 0.28);
+
+}
+
+.header .user-profile .profile .u-image{
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    float: left;
+    margin-right: 5px;
+    border: solid 2px #909090;
+    overflow: hidden;
+}
+
+.header .user-profile .profile .u-image img{
+    position: relative;
+    top: -5px;
+    left: -3px;
+}
+.header .user-profile .profile .profile-name{
+    color: #333;
+    float: left;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 14px;
+}
+
+
+
+.main-menu{
+    height: 100%;
+    width: 220px;
+    position: fixed;
+    background-color: #1e293d;
+    z-index: 200;
+}
+.manu-active{
+    background-color: #ff6600;
+    position: relative;
+    /*transform: scale(1.1);*/
+    box-shadow: 0px 3px 5px 0px rgba(50, 50, 50, 0.28);
+}
+
+.content{
+    margin-left: 220px;
+    margin-top: 70px;
+    z-index: -1;
+    padding: 20px;
+}
+
+.main-menu ul{
+    margin: 0px;
+    list-style: none;
+    padding: 0px;
+}
+
+.main-menu ul li{
+    height: 50px;
+    padding-top: 10px;
+    padding-bottom:  12px;
+    padding-left: 30px;
+    -webkit-transition: background-color 200ms,transform 100ms,box-shadow 100ms;
+    cursor: pointer;
+
+}
+
+.main-menu ul li:hover{
+    background-color: #ff6600;
+    position: relative;
+    /*transform: scale(1.1);*/
+    box-shadow: 0px 3px 5px 0px rgba(50, 50, 50, 0.28);
+
+}
+
+.main-menu ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #eee;
+
+}
+
+.addnewbook-form{
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+}
